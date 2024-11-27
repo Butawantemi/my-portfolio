@@ -33,3 +33,14 @@ body {
     background: #555;
     border-radius: 5px;
 }
+
+/* Welcome Section */
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #f4f4f4;
+}
