@@ -53,3 +53,15 @@ body {
     font-size: 1.2rem;
     margin-top: 10px;
 }
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
