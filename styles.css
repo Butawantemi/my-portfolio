@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     text-align: center;
     background: #f4f4f4;
 }
@@ -110,7 +110,7 @@ body {
     color: white;
     text-align: center;
     padding: 10px 0;
-    
+
 }
 
 /* Media Query */
