@@ -65,3 +65,20 @@ body {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+.project-tile {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.project-tile a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.project-tile a:hover {
+    text-decoration: underline;
+}
