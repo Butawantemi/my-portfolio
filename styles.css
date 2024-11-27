@@ -105,6 +105,14 @@ body {
     text-decoration: underline;
 }
 
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
 /* Media Query */
 @media (max-width: 768px) {
     #navbar {
