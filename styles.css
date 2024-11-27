@@ -22,3 +22,14 @@ body {
     z-index: 1000;
     padding: 10px 0;
 }
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#navbar a:hover {
+    background: #555;
+    border-radius: 5px;
+}
