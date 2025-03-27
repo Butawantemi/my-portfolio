@@ -4,46 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <header>
-        <a href="#" class="logo">Japhet</a>
-
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experiences</a>
-            <a href="#">Contact</a>
-        </nav>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
     </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="https://avatars.githubusercontent.com/u/125253893?v=4" alt="">
+    <main>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>
+    </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa fa-home"></i>
         </div>
-        <div class="home-content">
-            <h1>Hi, It`s <span>Japhet</span></h1>
-            <h3 class="typing">I am <span></span></h3>
-            <p>
-                I am Japhet, a passionate and skilled software developer with a strong background in building modern, scalable, and user-friendly web applications. My expertise lies in JavaScript, React, and back-end technologies like Node.js and MongoDB. 
-                I thrive on solving challenging problems and turning ideas into reality with code. When I'm not coding, I enjoy exploring new technologies and sharing knowledge with the tech community. 
-                Feel free to browse through my work, and let’s collaborate to create something amazing together!
-            </p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="#" class="btn">Hire Me</a>
+        <div class="control control-2" data-id="about">
+            <i class="fa fa-user"></i>
         </div>
-         
-    </section>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa fa-briefcase"></i>
+        </div>
+        <div class="control control-4" data-id="blogs">
+            <i class="fa fa-newspaper-o"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fa fa-envelope-open"></i>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
