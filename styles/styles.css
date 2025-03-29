@@ -245,6 +245,7 @@ section {
 }
 .about-container .left-about {
   padding-right: 5rem;
+  text-align: justify;
 }
 .about-container .left-about p {
   padding: 1rem;
